@@ -1,0 +1,167 @@
+html {
+  font-size: 90%;
+}
+
+.nav-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.button-icon {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-card {
+  display: flex;
+  gap: 12px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.book-cover {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-title {
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2a8c82;
+  cursor: pointer;
+}
+
+.book-author {
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.book-description {
+  margin: 0;
+  color: #333;
+}
+
+.page-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #2a8c82;
+  cursor: pointer;
+}
+
+.navbar-divider {
+  margin: 12px 0 16px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.catalog-heading {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  margin: 0 0 12px;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-form input {
+  flex: 1;
+}
+
+.login-heading {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  margin: 0 0 12px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 6px;
+}
+
+.login-form input {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.login-link {
+  color: #2a8c82;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

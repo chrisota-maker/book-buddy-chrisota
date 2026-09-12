@@ -10,9 +10,9 @@ A [live demo of the finished project](https://fsa-book-buddy.netlify.app/) is av
 
 ### All users should be able to:
 
-- See all books in the library's catalog
-- View details of an individual book
-- Register for a new account
+- See all books in the library's catalog - Done
+- View details of an individual book - Done
+- Register for a new account -
 - Log in to an existing account
 
 ### Logged in users should be able to:
